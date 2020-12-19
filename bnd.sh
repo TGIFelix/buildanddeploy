@@ -12,5 +12,5 @@ echo ">> ENTER DOMAIN:"
 read domain
 npm run build
 surge $PWD/public/ $domain
-echo ">> HAVE A GREAT DAY!"
+echo ">> Success! 🌈"
 echo ""
