@@ -8,6 +8,7 @@ fancyprint () {
 # }}}
 fancyprint ${Color} ">> ENTER DOMAIN:"
 read DOMAIN
+wait
 # }}}
 echo""
 fancyprint ${Color} ">> https://www.$DOMAIN 🌈"
