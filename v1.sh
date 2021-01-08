@@ -12,5 +12,4 @@ echo ">> ENTER DOMAIN:"
 read domain
 npm run build
 surge $PWD/public/ $domain
-echo ">> Success! 👍"
 echo ""
