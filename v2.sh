@@ -10,7 +10,7 @@ fancyprint ${Color} ">> ENTER DOMAIN:"
 read DOMAIN
 # }}}
 echo""
-fancyprint ${Color} ">> https://www.$DOMAIN 🌈"
+fancyprint ${Color} ">> https://$DOMAIN 🌈"
 # }}}
 PS3='➡ '
 options=("Build" "Deploy" "Exit")
@@ -28,13 +28,13 @@ do
         "Deploy")
             surge $PWD/public/ $DOMAIN
             echo ""
-            fancyprint ${Color} "🚀: https://www.$DOMAIN"
+            fancyprint ${Color} "🚀: https://$DOMAIN"
             echo ""
             exit 0
             ;;
         "Exit")
             echo ""
-            fancyprint ${Color} "🚀: https://www.$DOMAIN"
+            fancyprint ${Color} "🚀: https://$DOMAIN"
             echo ""
             exit 0
             ;;
